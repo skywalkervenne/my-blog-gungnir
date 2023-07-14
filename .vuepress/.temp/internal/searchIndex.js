@@ -1,5 +1,12 @@
 export const searchIndex = [
   {
+    "title": "",
+    "headers": [],
+    "path": "/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "Links",
     "headers": [],
     "path": "/links/",
@@ -1374,6 +1381,106 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "站点统计",
+    "headers": [
+      {
+        "level": 2,
+        "title": "谷歌统计",
+        "slug": "谷歌统计",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "百度统计",
+        "slug": "百度统计",
+        "children": []
+      }
+    ],
+    "path": "/zh/docs/advanced/analytics.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "评论",
+    "headers": [
+      {
+        "level": 2,
+        "title": "准备",
+        "slug": "准备",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "配置",
+        "slug": "配置",
+        "children": []
+      }
+    ],
+    "path": "/zh/docs/advanced/comment.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "一言",
+    "headers": [],
+    "path": "/zh/docs/advanced/hitokoto.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "图标支持",
+    "headers": [
+      {
+        "level": 2,
+        "title": "引入图标",
+        "slug": "引入图标",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "使用图标",
+        "slug": "使用图标",
+        "children": []
+      }
+    ],
+    "path": "/zh/docs/advanced/icons.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "阅读时长",
+    "headers": [
+      {
+        "level": 2,
+        "title": "配置",
+        "slug": "配置",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "重写",
+        "slug": "重写",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "禁用",
+        "slug": "禁用",
+        "children": []
+      }
+    ],
+    "path": "/zh/docs/advanced/reading-time.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
+    "title": "RSS",
+    "headers": [],
+    "path": "/zh/docs/advanced/rss.html",
+    "pathLocale": "/zh/",
+    "extraFields": []
+  },
+  {
     "title": "基本配置",
     "headers": [
       {
@@ -1625,106 +1732,6 @@ export const searchIndex = [
       }
     ],
     "path": "/zh/docs/basic/search.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "站点统计",
-    "headers": [
-      {
-        "level": 2,
-        "title": "谷歌统计",
-        "slug": "谷歌统计",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "百度统计",
-        "slug": "百度统计",
-        "children": []
-      }
-    ],
-    "path": "/zh/docs/advanced/analytics.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "评论",
-    "headers": [
-      {
-        "level": 2,
-        "title": "准备",
-        "slug": "准备",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "配置",
-        "slug": "配置",
-        "children": []
-      }
-    ],
-    "path": "/zh/docs/advanced/comment.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "一言",
-    "headers": [],
-    "path": "/zh/docs/advanced/hitokoto.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "图标支持",
-    "headers": [
-      {
-        "level": 2,
-        "title": "引入图标",
-        "slug": "引入图标",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "使用图标",
-        "slug": "使用图标",
-        "children": []
-      }
-    ],
-    "path": "/zh/docs/advanced/icons.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "阅读时长",
-    "headers": [
-      {
-        "level": 2,
-        "title": "配置",
-        "slug": "配置",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "重写",
-        "slug": "重写",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "禁用",
-        "slug": "禁用",
-        "children": []
-      }
-    ],
-    "path": "/zh/docs/advanced/reading-time.html",
-    "pathLocale": "/zh/",
-    "extraFields": []
-  },
-  {
-    "title": "RSS",
-    "headers": [],
-    "path": "/zh/docs/advanced/rss.html",
     "pathLocale": "/zh/",
     "extraFields": []
   },
@@ -2251,14 +2258,6 @@ export const searchIndex = [
     "pathLocale": "/",
     "extraFields": [],
     "layout": "Tags"
-  },
-  {
-    "title": "Home",
-    "headers": [],
-    "path": "/",
-    "pathLocale": "/",
-    "extraFields": [],
-    "layout": "HomePage"
   },
   {
     "title": "test | Tags",
